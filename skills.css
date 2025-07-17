@@ -20,6 +20,7 @@ body {
   background-color: #1a1a1a;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .navbar ul {
@@ -37,7 +38,6 @@ body {
 .navbar a:hover {
   color: white;
 }
-
 /* Container */
 .container {
   max-width: 1100px;

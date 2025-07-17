@@ -18,6 +18,13 @@ body {
   background-color: #1a1a1a;
   position: sticky;
   top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
 .navbar ul {
@@ -36,11 +43,6 @@ body {
   color: white;
 }
 
-.socials a {
-  color: #ccc;
-  margin-left: 15px;
-  font-size: 18px;
-}
 
 .hero {
   display: flex;

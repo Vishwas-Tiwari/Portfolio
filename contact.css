@@ -16,7 +16,6 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px 40px;
   background-color: #1a1a1a;
   position: sticky;
@@ -34,28 +33,12 @@ body {
   text-decoration: none;
   color: #ccc;
   font-weight: 500;
-  transition: color 0.3s;
 }
 
 .navbar a:hover {
-  color: #32cd32;
+  color: white;
 }
 
-/* Social Icons in Navbar */
-.socials {
-  display: flex;
-  gap: 15px;
-}
-
-.socials a {
-  color: #ccc;
-  font-size: 1.2rem;
-  transition: color 0.3s;
-}
-
-.socials a:hover {
-  color: #32cd32;
-}
 
 /* Container */
 .container {

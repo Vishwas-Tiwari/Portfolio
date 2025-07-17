@@ -39,15 +39,6 @@ body {
   color: white;
 }
 
-.socials a {
-  color: #ccc;
-  margin-left: 15px;
-  font-size: 18px;
-}
-
-.socials a:hover {
-  color: white;
-}
 
 /* Project Section */
 .projects-section {
