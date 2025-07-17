@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project</title>
+  <link rel="stylesheet" href="Project.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Get In Touch</a></li>
+      </ul>
+      <div class="socials">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-behance"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="projects-section">
+    <div class="container">
+      <h1 class="projects-heading">Projects</h1>
+      <p class="projects-intro">
+        A showcase of practical web development projects built using both modern frameworks and core technologies. 
+        From a personalized movie search app built with React and Vite to a lightweight to-do list using pure JavaScript, each project reflects clean UI, interactivity, and real-world functionality.
+      </p>
+
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <img src="project1.png" alt="Project 1 Screenshot" class="project-image" />
+          <h2 class="project-title">Movie_app</h2>
+          <p class="project-desc">
+          <div class="project-description-box">
+            <h2>🎬 Movie App – React + Vite</h2>
+            <p>
+              A sleek movie search application built with <strong>React (Vite)</strong> where users can search any movie
+              in real-time.
+              <span class="dots">...</span>
+              <span class="more">
+                The <strong>trending list updates</strong> dynamically based on the number of searches for each title.
+                On first visit, the app asks the user for their name and stores it locally. Returning users are
+                automatically recognized to provide a personalized experience.
+              </span>
+            </p>
+            <button onclick="toggleReadMore(this)">Read More</button>
+          </div>.</p>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <img src="project2.png" alt="Project 1 Screenshot" class="project-image" />
+          <h2 class="project-title">To-Do List</h2>
+          <p class="project-desc">
+          <div class="project-description-box">
+            <h2>📝 To-Do List – HTML, CSS & JavaScript</h2>
+            <p>
+              A basic to-do list application built using <strong>pure HTML, CSS, and JavaScript</strong> that lets users
+              add tasks easily.
+              <span class="dots">...</span>
+              <span class="more">
+                Users can add daily tasks, mark them as completed, and delete them when done. It's a clean and
+                lightweight project with no external frameworks — perfect for beginners to understand DOM manipulation,
+                event handling, and user interaction.
+              </span>
+            </p>
+            <button onclick="toggleReadMore(this)">Read More</button>
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

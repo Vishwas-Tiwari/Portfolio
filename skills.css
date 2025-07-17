@@ -1,0 +1,157 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+
+/* Section Heading */
+.skills-heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.skills-intro {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  text-align: left;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 40px;
+  justify-items: center;
+}
+
+
+/* Skill Box */
+.skill-box {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.skill-icon {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  background-color: transparent; /* No background color */
+  transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+  transform: scale(1.15);
+}
+
+.skill-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.skill-box p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* See More Work Section */
+.more-work {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.more-work h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.more-work p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.more-work a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #32cd32;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.more-work a:hover {
+  background-color: #28a428;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills-heading,
+  .skills-intro {
+    text-align: center;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
