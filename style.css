@@ -43,28 +43,6 @@ body {
   color: white;
 }
 
-/* Responsive navbar for screens smaller than 768px */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 20px;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .socials {
-    margin-top: 10px;
-    display: flex;
-    gap: 15px;
-  }
-}
-
-
 
 .hero {
   display: flex;
